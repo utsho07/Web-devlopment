@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <!-- id  selector -->
+    <style>
+        #bluecolor {
+            color: blue;
+        }
+    </style>
+    <!-- Class selector -->
+    <style>
+        .classred {
+            color: red;
+        }
+    </style>
+    <!-- Group selector -->
+    <style>
+        span,
+        footer {
+            background-color: pink;
+        }
+    </style>
+
+    <link rel="stylesheet" href="tutorial_14.css">
+
+</head>
+
+<body>
+    <h3>
+        Css selector
+    </h3>
+    <p>this is a simple paragraph section</p>
+    <p id="bluecolor">this is a simple paragraph section</p>
+    <p>this is a simple paragraph section</p>
+    <div>
+        <p id="background" class="classred">This is a paragraph tag inside a div tag</p>
+    </div>
+    <span>This is a span selector</span>
+    <footer>This is a footer selector</footer>
+</body>
+
+</html>
