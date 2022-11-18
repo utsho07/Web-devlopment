@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CREATING A NEVIGATION BAR</title>
+    <style>
+        .navbar {
+            background-color: black;
+        }
+
+        .navbar ul {
+            border: 4px;
+            overflow: auto;
+        }
+
+        .navbar li {
+            float: left;
+            list-style: none;
+            margin: 13px 20px;
+        }
+
+        .navbar li a {
+            text-decoration: none;
+            margin: 5px;
+            color: white;
+        }
+
+        .navbar li a:hover {
+            color: rgb(198, 97, 97);
+        }
+
+        .search {
+            float: right;
+            padding: 10px 4px;
+        }
+
+        .navbar input {
+            border: 2px solid black;
+            border-radius: 100px;
+            padding: 3px;
+            width: 129px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="https://www.facebook.com">Home</a></li>
+                <li><a href="https//google.com">About</a></li>
+                <li><a href="https//google.com">Services</a></li>
+                <li><a href="https//google.com">Contact us</a></li>
+                <div class="search">
+                    <input type="text" name="search" id="search" placeholder="search in the website">
+                </div>
+            </ul>
+        </nav>
+    </header>
+</body>
+
+</html>

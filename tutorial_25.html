@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position absolute</title>
+    <style>
+        /* There are 5 type of position in css 
+        1.static(bydefault)
+        2.absolute
+        3.fixed
+        4.relative
+        5.sticky */
+
+        /* relative: Positions the element relative to its normal positon and will leave a gap at its normal position*/
+        /* position: relative; */
+
+        /* absolute: Positions the element relative to the positon of its first parent*/
+        /* position: absolute; */
+
+        /* top: 34px;
+        left: 134px; */
+
+        /* fixed: Positions the element relative to the browser window; */
+        /* position: fixed;
+        right: 4px;
+        bottom: 2px */
+
+        /* sticky: Positions the element relative to the users scroll position */
+        .container {
+            height: 3444px;
+            background-color: rgb(175, 239, 239);
+        }
+
+        .box {
+            display: inline-block;
+            border: 2px solid red;
+            width: 150px;
+            height: 150px;
+            margin: 2px;
+        }
+
+        #box3 {
+            position: relative;
+            /* top: 2px; */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box" id="box1"></div>
+        <div class="box" id="box2"></div>
+        <div class="box" id="box3"></div>
+        <div class="box" id="box4"></div>
+
+    </div>
+</body>
+
+</html>

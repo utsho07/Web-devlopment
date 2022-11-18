@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .container {
+            border: 5px solid;
+            border-radius: 10px;
+            height: 500px;
+            width: 1000px;
+            background-color: rgb(229, 149, 149);
+        }
+
+        .item {
+            background-color: rgb(166, 111, 222);
+            border: 3px solid;
+            margin: 5px;
+            padding: 12px 3px;
+            border-radius: 10px;
+        }
+
+        #fruit {
+            float: left;
+            width: 48%;
+            background-color: rgb(148, 168, 227);
+            padding: 10px;
+
+        }
+
+        #computer {
+            float: left;
+            width: 48%;
+            background-color: rgb(126, 238, 201);
+            padding: 10px;
+
+        }
+
+        #stationary {
+            clear: both;
+            clear: left;
+            background-color: rgb(211, 224, 152);
+            padding: 10px;
+
+        }
+
+        p,
+        h3 {
+            text-align: justify;
+        }
+
+        h1 {
+
+            text-align: center;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>Welcome</h1>
+        <div id="fruit" class="item">
+            <h3>fruit</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque adipisci inventore corporis cumque, nisi
+                iure a! Quo numquam, iste, eum dolorum soluta suscipit qui corrupti, explicabo ullam facilis laboriosam?
+                Inventore, soluta minus.</p>
+        </div>
+        <div id="computer" class="item">
+            <h3>computer</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque adipisci inventore corporis cumque, nisi
+                iure a! Quo numquam, iste, eum dolorum soluta suscipit qui corrupti, explicabo ullam facilis laboriosam?
+                Inventore, soluta minus.</p>
+        </div>
+        <div id="stationary" class="item">
+            <h3>stationaty</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque adipisci inventore corporis cumque, nisi
+                iure a! Quo numquam, iste, eum dolorum soluta suscipit qui corrupti, explicabo ullam facilis laboriosam?
+                Inventore, soluta minus.</p>
+        </div>
+
+    </div>
+</body>
+
+</html>
