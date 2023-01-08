@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css gird tutorial</title>
+    <style>
+        body {
+            background-color: rgb(185, 158, 158);
+        }
+
+        .container {
+            /* border: 3px solid white; */
+            display: grid;
+            grid-template-columns: 100px auto auto;
+            grid-template-columns: 1fr 3fr 2fr;
+            /* grid-template-columns: repeat(5, auto); */
+
+        }
+
+        .item {
+            /* display: grid; */
+            display: flex;
+            color: white;
+            border: 3px solid white;
+            margin: 4px;
+            padding: 4px;
+            align-items: center;
+            /* text-align: center; */
+            justify-content: center;
+            /* justify-items: center; */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item">This is uses of the grid section.
+            using which we can make different kind of layout. </div>
+        <div class="item">This is a item2</div>
+        <div class="item">This is a item3</div>
+        <div class="item">This is a item4</div>
+        <div class="item">This is a item5</div>
+        <div class="item">This is a item6</div>
+        <div class="item">This is a item7</div>
+        <div class="item">This is a item8</div>
+        <div class="item">This is a item9</div>
+        <div class="item">This is a item9</div>
+        <div class="item">This is a item9</div>
+        <div class="item">This is a item9</div>
+        <div class="item">This is a item9</div>
+    </div>
+</body>
+
+</html>

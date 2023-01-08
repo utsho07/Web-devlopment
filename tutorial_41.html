@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css grid</title>
+    <style>
+        /* using grid we can divide out layout in multiple section.
+        gridtemplecolum divide the layout in coloumn wise and
+        gridtempleterows divide the layout in row wise .gridgap give the gap between the section.box
+        for shortcut we can use repeat(amount,size); */
+        .box {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: chocolate;
+            border: 2px black solid;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 100px 100px 100px 100px;
+            grid-gap: 1rem;
+        }
+
+        .item:hover {
+            color: white;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid">
+        <div class="box">
+            <div class="item">This is magic box-1</div>
+        </div>
+        <div class="box">This is magic box-2</div>
+        <div class="box">This is magic box-3</div>
+        <div class="box">This is magic box-4</div>
+        <div class="box">This is magic box-5</div>
+        <div class="box">This is magic box-6</div>
+        <div class="box">This is magic box-7</div>
+        <div class="box">This is magic box-8</div>
+        <div class="box">This is magic box-9</div>
+        <div class="box">This is magic box-10</div>
+        <div class="box">This is magic box-11</div>
+        <div class="box">This is magic box-12</div>
+    </div>
+
+</body>
+
+</html>

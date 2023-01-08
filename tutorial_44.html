@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layouts</title>
+    <style>
+        body {
+            background-color: rgb(200, 170, 159);
+        }
+
+        .container {
+            display: grid;
+            grid-gap: .25rem;
+            grid-template-areas:
+                'navbar navbar navbar navbar'
+                'id1 id1 id1 utsho'
+                'footer footer footer footer';
+        }
+
+        #id1 {
+            padding: 50px;
+        }
+
+        .item {
+            background-color: yellow;
+            border: 3px solid black;
+            padding: 12px 23px;
+        }
+
+        #navbar {
+            grid-area: navbar;
+        }
+
+        #id1 {
+            grid-area: id1;
+        }
+
+        #id2 {
+            padding: 25px;
+        }
+
+        #id2 {
+            grid-area: utsho;
+        }
+
+        footer {
+            grid-area: footer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item" id="navbar">
+            home tutorial resource contact us
+        </div>
+        <div class="item" id="id1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo perferendis voluptates nesciunt totam,
+            dignissimos praesentium, saepe consequatur non beatae alias in. Rerum, molestias eum maiores autem, hic
+            explicabo iusto corrupti ducimus et fugiat cum beatae eveniet atque earum totam facilis?Lorem ipsum dolor
+            sit amet consectetur adipisicing elit. Perferendis obcaecati deserunt maxime autem omnis quidem ex aliquid
+            ipsam nemo ab blanditiis eligendi, repellat temporibus dignissimos pariatur adipisci esse beatae, quo
+            eveniet delectus quisquam praesentium, nihil aliquam iure! Facere, architecto hic.
+        </div>
+        <div class="item" id="id2">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, quaerat. Sint impedit illum vero illo
+            provident architecto tempora eligendi quo quod? Veritatis eius nobis sit deleniti facere sed eligendi
+            delectus!
+        </div>
+        <footer class="item">
+            A place where you can find anything which want to search
+        </footer>
+
+    </div>
+
+</body>
+
+</html>

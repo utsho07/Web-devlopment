@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box shadow and text shadow</title>
+</head>
+<style>
+    .container {
+        text-align: center;
+        display: flex;
+        width: 100%;
+        margin: auto;
+    }
+
+    .card {
+        background-color: rgb(200, 97, 99);
+        padding: 14px;
+        margin: 10px 5px;
+        box-shadow: 7px -7px 5px -2px;
+        /* box-shadow: x ofset y ofset blur radious spead radious ; */
+    }
+
+    /* there is also have text shadow it work same as the box shadow..it just use when we add shadow to a text */
+    h1 {
+        /* text-shadow: x offset y offset blur ; */
+        text-shadow: 3px 3px 3px rgb(235, 228, 228);
+        /* in color we can use rgba also..in rgba(,,,alpha) alpha mean the amount of darkder the color will occour */
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>card no 01</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, inventore voluptates provident
+                ratione, earum ab odio nihil, cumque deleniti iste perspiciatis id animi unde. Consequatur aliquid
+                voluptatibus, quasi explicabo vero ratione! Impedit?
+            </p>
+        </div>
+        <div class="card">
+            <h1>card no 02</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, inventore voluptates provident
+                ratione, earum ab odio nihil, cumque deleniti iste perspiciatis id animi unde. Consequatur aliquid
+                voluptatibus, quasi explicabo vero ratione! Impedit?
+            </p>
+        </div>
+        <div class="card">
+            <h1>card no 03</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, inventore voluptates provident
+                ratione, earum ab odio nihil, cumque deleniti iste perspiciatis id animi unde. Consequatur aliquid
+                voluptatibus, quasi explicabo vero ratione! Impedit?
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>scope and if else</title>
+    <script>
+        let v = "This is variable";
+        {
+            let v = "This is variable in the block";
+            console.log(v);
+
+        }
+        console.log(v);
+
+        // for declare aything constant we use const function
+        const a = "This is constant and it is will not changed";
+        console.log(a);
+
+
+        let age = 24;
+
+        // for cheack any condition we use if else condition
+        if (age > 18) {
+            console.log("you can see the video");
+        }
+        else {
+            console.log("This video is not for you");
+        }
+
+
+
+
+        // if else ladder as same as c or c++
+        // we can also switch statement in the javescript
+        let m = 4;
+        switch (m) {
+            case 1:
+                {
+                    console.log("The month is january");
+                    break;
+                }
+            case 2:
+                {
+                    console.log("The month is feb");
+                    break;
+
+                }
+            case 3:
+                {
+                    console.log("The month is march");
+                    break;
+
+                }
+            case 4:
+                {
+                    console.log("The month is april");
+                    break;
+
+                }
+        }
+
+
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt aliquid praesentium dolorum quae illo
+            deleniti atque aut, eius dolores, facilis dolore minima totam quo cumque voluptates! Eaque alias assumenda
+            dolores.</p>
+        <summary>this is the end of the lsdifj</summary>
+    </div>
+</body>
+
+</html>

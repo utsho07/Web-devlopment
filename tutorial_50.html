@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>string method is javascript</title>
+    <script>
+        var str = "This is a string";
+        console.log(str);
+        var position = str.indexOf('is');
+        console.log(position);
+        // locate the position of the last string
+        position = str.lastIndexOf('is');
+        console.log(position);
+
+        // cut the string as substring
+        var sub = str.slice(1, 10);
+        console.log(sub);
+
+        // replace the word using replace function
+        var replace = str.replace('string', 'harry');
+        console.log(str);
+        console.log(replace);
+        console.log(str.toUpperCase());
+        console.log(str.toLowerCase());
+
+
+        // to concatinate two string
+        //concat function is to use to add a string to the again string
+        var newstring = str.concat(' this is a new string');
+        console.log(newstring);
+
+        var strWithWhitespaces = "   this contains        whitespaces   ";
+        console.log(strWithWhitespaces)
+        console.log(strWithWhitespaces.trim())
+
+        // to collect any character from a string 
+        var str1 = str.charAt(2);
+        console.log(str1);
+    </script>
+
+</head>
+
+<body>
+    <div class="cont">
+        <p>This code is for string method.In this tutorial we will discuss about different king of method of string
+            which is use in the web devlopment</p>
+    </div>
+</body>
+
+</html>

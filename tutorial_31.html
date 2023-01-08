@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>more on selector</title>
+    <style>
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            margin-top: 100px;
+            border: 3px solid green;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: rgb(246, 184, 184);
+        }
+
+        h1 {
+            font-size: 35px;
+            text-align: center;
+            background-color: rgb(93, 215, 174);
+        }
+
+        /* here all the p under the div will change  */
+        /* div p {
+            color: white;
+            background-color: aqua;
+        } */
+
+        /* when we use + sing..its mean just after the tag the changes will appear */
+        /* div+p {
+            background-color: aqua;
+        } */
+        /* here just after the div the changes will occours */
+        /* div>p {
+            background-color: aqua;
+        } */
+        div>li {
+            color: white;
+            background-color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>this is for more for selector </h1>
+        <div>
+            <p>This is our first paragraph</p>
+            <div>
+                <ol type="i">
+                    <li>number 1</li>
+                    <li>
+                        <p>
+                            This is a paragraph under the li tag
+                        </p>
+                    </li>
+                </ol>
+            </div>
+            <p>This is inside the div</p>
+        </div>
+        <p>
+            this is outside paragraph
+        </p>
+    </div>
+</body>
+
+</html>
