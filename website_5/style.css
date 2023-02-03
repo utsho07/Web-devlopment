@@ -1,0 +1,253 @@
+* {
+    padding: 0px;
+    margin: 0px;
+
+    font-family: 'Quicksand', sans-serif;
+}
+
+.nav {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: rgb(8, 10, 10);
+    padding-bottom: 15px;
+}
+
+.nav1 {
+    font-size: 34px;
+    padding-left: 50px;
+    padding-top: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.nav2 {
+    text-align: center;
+    padding-top: 25px;
+
+}
+
+.nav2 a {
+    text-decoration: none;
+    color: rgb(237, 237, 237);
+    font-size: 20px;
+    padding: 0px 6px;
+    transition: 0.9s;
+}
+
+.nav2 a:hover {
+    background-color: rgb(72, 72, 206);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.head {
+    text-align: center;
+    background-image: url("/website_5/alexander-grey-O2u6gA2esAI-unsplash.jpg");
+    background-size: cover;
+    background-size: 100%;
+    height: 700px;
+}
+
+.head1 {
+    color: white;
+    padding-top: 150px;
+    font-size: 20px;
+    margin-bottom: 45px;
+}
+
+.head2 button {
+    padding: 13px 20px;
+    border: none;
+    margin: 0px 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 11px;
+    transition: 0.5s;
+}
+
+.head2>button:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    color: rgb(11, 7, 7);
+}
+
+.sec1 {
+    width: 90%;
+    margin: 100px auto;
+}
+
+.sec1 h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(5, 5, 92);
+}
+
+.sec1-pera {
+    margin-bottom: 59px;
+    color: gray;
+    font-style: italic;
+}
+
+.card {
+    display: flex;
+    margin: 10px auto;
+    margin-left: 70px;
+}
+
+.cardsec {
+    width: 300px;
+    margin: 15px 15px;
+    padding: 30px 40px;
+    background-color: rgb(249, 242, 242);
+    border-radius: 10px;
+    transition: 0.5s;
+    box-shadow: 3px 3px 3px gray;
+}
+
+.cardsec p {
+    font-size: 15px;
+    color: gray;
+}
+
+.cardsec i {
+    font-size: 40px;
+    padding-bottom: 12px;
+}
+
+.cardsec:hover {
+    transform: scale(1.05);
+    background-color: rgb(200, 195, 195);
+    cursor: pointer;
+}
+
+.sec2 h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(5, 5, 92);
+}
+
+.card2 {
+    display: flex;
+    margin: 10px auto;
+    width: 90%;
+    margin-left: 180px;
+}
+
+.cardsec2 {
+    width: 280px;
+    margin: 0px 10px;
+    background-color: rgb(240, 227, 227);
+    padding: 12px 12px;
+    box-shadow: 3px 3px 3px gray;
+}
+
+.cardsec2 h3 {
+    margin-top: 15px;
+}
+
+.cardsec2 p {
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.cardsec2 button {
+    padding: 3px 10px;
+    margin-top: 8px;
+    background-color: rgb(7, 7, 60);
+    color: white;
+}
+
+.cardsec2:hover {
+    color: rgb(55, 55, 38);
+    cursor: pointer;
+    transition: 0.5s;
+    transform: scale(1.05);
+}
+
+.sec3 {
+    display: grid;
+    grid-template-columns: 60% 40%;
+
+    height: 400px;
+    margin: 20px auto;
+    background-color: #002347;
+    padding: 110px;
+    margin-top: 150px;
+}
+
+.register1 {
+    padding-top: 90px;
+    padding-left: 30px;
+    width: 500px;
+}
+
+.register1 h1 {
+    color: white;
+    letter-spacing: 5px;
+    font-size: 70px;
+    padding-bottom: 20px;
+}
+
+.register-pera p {
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.block {
+    display: flex;
+}
+
+.block1 {
+    border: 2px solid rgb(239, 233, 233);
+    padding: 25px 42px;
+    margin: 60px 10px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 25px;
+    background-color: #334f6c;
+}
+
+.register2 {
+    background-color: white;
+    margin-left: 150px;
+    margin-bottom: 150px;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+.register2 input {
+    border: none;
+    background-color: rgb(235, 227, 227);
+    margin: 8px 0px 10px 0px;
+}
+
+.button {
+    padding: 10px 70px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.sec4 {
+    text-align: center;
+    font-size: 14px;
+    padding: 50px 0px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    padding: 6px 0px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
